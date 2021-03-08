@@ -24,7 +24,7 @@ $update = json_decode(file_get_contents('php://input'));
 //test log
 // file_put_contents("log.txt",file_get_contents('php://input'));
 
-//https://api.telegram.org/bot1655239193:AAHRpQd7xXCip4cgW8mz0-8A3HhV9cCKPx0/setWebHook?url=https://smartax.github.io/telegram_bot/chat_bot.php
+//https://api.telegram.org/bot1655239193:AAHRpQd7xXCip4cgW8mz0-8A3HhV9cCKPx0/setWebHook?url=https://smartax.github.io/telegram_bot/index.php
 
 // message variables
 $message = $update->message;
